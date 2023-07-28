@@ -55,8 +55,8 @@ reported in King County, making it a hot spot for cases since 2020.
 ## Reflection 4
 Why are there so many observations (counties) in the variable `lowest_deaths_in_each_state`? That is, wouldn't you expect the number to be around 50? Why is the number greater than 50? Answer in at least 1-3 sentences
 
-There are so many observations in the data frame, lowest deaths in each
-state because there are "ties" for multiple counties
+There are so many observations in the data frame, `lowest_deaths_in_each_state`
+because there are "ties" for multiple counties
 (and even repeats of the same county) with the same lowest death count,
 which was 0, typically from "Unknown" counties where there may have been
 no clear boundaries or poor reporting on deaths so it was just marked as 0. 
@@ -101,12 +101,12 @@ meant to be an "Unknown". Not all of the "Unknown" counties had case/death
 counts of zero, some had pretty significant numbers for being an
 "Unknown" county which makes me think it may be a sort of geographical
 barrier or unidentified area of the state where these reports were coming
-from.I was surprised by the amount of informationthat was available
+from.I was surprised by the amount of information that was available
 (and included) for U.S territories such as American Samoa, U.S Virgin Islands,
 and Puerto Rico, as those places are often overlooked and not considered
 states, so it was nice to see them included. I would probably find ways
 to merge/consolidate data together in a way that would be the most
-helpful for the purpoes of the project, for instance, most of this project
+helpful for the purpose of the project, for instance, most of this project
 focused on the maximum values for the counties, states, etc. and
 therefore only need the values taken from the most recent date. To make
 things easier, I would probably filter out data that fit the specific time
